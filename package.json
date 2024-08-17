@@ -1,0 +1,17 @@
+{
+  "name": "cpf-number",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node src/index.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "Douglas Moura <douglas.ademoura@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.4.0"
+  }
+}
