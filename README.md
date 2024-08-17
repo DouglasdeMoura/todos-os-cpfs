@@ -14,7 +14,7 @@ npm run generate
 
 ### Executando os testes
 
-Há apenas um teste para calcular se os dígitos verificadores são válidos.
+Há apenas um teste para a função que calcula os dígitos verificadores. Para rodá-lo, execute:
 
 ```bash
 npm run test
@@ -22,7 +22,7 @@ npm run test
 
 ### Dividindo o arquivo em partes
 
-O comando `split` deve estar disponível no seu sistema operacional. No caso do Windows, você pode usar o WSL.
+O comando `split` deve estar disponível no seu sistema operacional (GNU/Linux ou MacOS). No caso do Windows, você pode usar o WSL.
 
 ```bash
 split -C 20m --numeric-suffixes cpfs.txt cpf
